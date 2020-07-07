@@ -1,0 +1,3 @@
+select id, name,email from user where email like '%deloitte%'
+
+select id, name,email,usertype,isactive from user where isactive=true
